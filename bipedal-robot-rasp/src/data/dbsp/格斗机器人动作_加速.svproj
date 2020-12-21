@@ -1,0 +1,1335 @@
+<?xml version="1.0"?>
+<Project ID="100000026" Version="1" LockScreen="false" IsAngleUnitDegree="true">
+  <Servos>
+    <Servo Stream="1" Order="1" X="-1" Y="-1" Caption="#1-1" Adjust="0" Skin="-1" />
+    <Servo Stream="1" Order="2" X="-1" Y="-1" Caption="#1-2" Adjust="-1" Skin="-1" />
+    <Servo Stream="1" Order="3" X="-1" Y="-1" Caption="#1-3" Adjust="0" Skin="-1" />
+    <Servo Stream="1" Order="4" X="-1" Y="-1" Caption="#1-4" Adjust="-1" Skin="-1" />
+    <Servo Stream="2" Order="1" X="-1" Y="-1" Caption="#2-1" Adjust="0" Skin="-1" />
+    <Servo Stream="2" Order="2" X="-1" Y="-1" Caption="#2-2" Adjust="1" Skin="-1" />
+    <Servo Stream="2" Order="3" X="-1" Y="-1" Caption="#2-3" Adjust="0" Skin="-1" />
+    <Servo Stream="4" Order="1" X="-1" Y="-1" Caption="" Adjust="0" Skin="-1" />
+    <Servo Stream="5" Order="1" X="-1" Y="-1" Caption="#5-1" Adjust="-1" Skin="-1" />
+    <Servo Stream="5" Order="2" X="-1" Y="-1" Caption="#5-2" Adjust="-1" Skin="-1" />
+    <Servo Stream="5" Order="3" X="-1" Y="-1" Caption="#5-3" Adjust="2" Skin="-1" />
+    <Servo Stream="6" Order="1" X="-1" Y="-1" Caption="#6-1" Adjust="0" Skin="-1" />
+    <Servo Stream="6" Order="2" X="-1" Y="-1" Caption="#6-2" Adjust="0" Skin="-1" />
+    <Servo Stream="6" Order="3" X="-1" Y="-1" Caption="#6-3" Adjust="0" Skin="-1" />
+    <Servo Stream="6" Order="4" X="-1" Y="-1" Caption="#6-4" Adjust="4" Skin="-1" />
+    <Servo Stream="3" Order="1" X="-1" Y="-1" Caption="#3-1" Adjust="0" Skin="-1" />
+  </Servos>
+  <Positions />
+  <Actions>
+    <Action ID="100000078" Caption="站立">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="9" Interval="300" />
+        <Step Stream="1" Order="2" Degree="-46" Interval="300" />
+        <Step Stream="1" Order="3" Degree="64" Interval="300" />
+        <Step Stream="1" Order="4" Degree="9" Interval="300" />
+        <Step Stream="2" Order="1" Degree="-3" Interval="300" />
+        <Step Stream="2" Order="2" Degree="-62" Interval="300" />
+        <Step Stream="2" Order="3" Degree="45" Interval="300" />
+        <Step Stream="4" Order="1" Degree="0" Interval="300" />
+        <Step Stream="5" Order="1" Degree="0" Interval="300" />
+        <Step Stream="5" Order="2" Degree="63" Interval="300" />
+        <Step Stream="5" Order="3" Degree="-44" Interval="300" />
+        <Step Stream="6" Order="1" Degree="-7" Interval="300" />
+        <Step Stream="6" Order="2" Degree="42" Interval="300" />
+        <Step Stream="6" Order="3" Degree="-67" Interval="300" />
+        <Step Stream="6" Order="4" Degree="-8" Interval="300" />
+      </Steps>
+    </Action>
+    <Action ID="100000080" Caption="左侧滑01">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="10" Interval="30" />
+        <Step Stream="1" Order="2" Degree="-56" Interval="30" />
+        <Step Stream="1" Order="3" Degree="63" Interval="30" />
+        <Step Stream="1" Order="4" Degree="-1" Interval="30" />
+        <Step Stream="2" Order="1" Degree="-3" Interval="30" />
+        <Step Stream="2" Order="2" Degree="-60" Interval="30" />
+        <Step Stream="2" Order="3" Degree="43" Interval="30" />
+        <Step Stream="4" Order="1" Degree="1" Interval="30" />
+        <Step Stream="5" Order="1" Degree="1" Interval="30" />
+        <Step Stream="5" Order="2" Degree="60" Interval="30" />
+        <Step Stream="5" Order="3" Degree="-34" Interval="30" />
+        <Step Stream="6" Order="1" Degree="-30" Interval="30" />
+        <Step Stream="6" Order="2" Degree="27" Interval="30" />
+        <Step Stream="6" Order="3" Degree="-34" Interval="30" />
+        <Step Stream="6" Order="4" Degree="-35" Interval="30" />
+      </Steps>
+    </Action>
+    <Action ID="100000081" Caption="左侧滑02">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="2" Interval="30" />
+        <Step Stream="1" Order="2" Degree="-52" Interval="30" />
+        <Step Stream="1" Order="3" Degree="58" Interval="30" />
+        <Step Stream="1" Order="4" Degree="1" Interval="30" />
+        <Step Stream="2" Order="1" Degree="-3" Interval="30" />
+        <Step Stream="2" Order="2" Degree="-64" Interval="30" />
+        <Step Stream="2" Order="3" Degree="43" Interval="30" />
+        <Step Stream="4" Order="1" Degree="1" Interval="30" />
+        <Step Stream="5" Order="1" Degree="1" Interval="30" />
+        <Step Stream="5" Order="2" Degree="61" Interval="30" />
+        <Step Stream="5" Order="3" Degree="-33" Interval="30" />
+        <Step Stream="6" Order="1" Degree="-4" Interval="30" />
+        <Step Stream="6" Order="2" Degree="51" Interval="30" />
+        <Step Stream="6" Order="3" Degree="-57" Interval="30" />
+        <Step Stream="6" Order="4" Degree="-9" Interval="30" />
+      </Steps>
+    </Action>
+    <Action ID="100000172" Caption="右直拳蓄力">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="16" Interval="70" />
+        <Step Stream="1" Order="2" Degree="-37" Interval="70" />
+        <Step Stream="1" Order="3" Degree="37" Interval="70" />
+        <Step Stream="1" Order="4" Degree="23" Interval="70" />
+        <Step Stream="2" Order="1" Degree="-1" Interval="70" />
+        <Step Stream="2" Order="2" Degree="-58" Interval="70" />
+        <Step Stream="2" Order="3" Degree="45" Interval="70" />
+        <Step Stream="4" Order="1" Degree="36" Interval="70" />
+        <Step Stream="5" Order="1" Degree="36" Interval="70" />
+        <Step Stream="5" Order="2" Degree="58" Interval="70" />
+        <Step Stream="5" Order="3" Degree="-93" Interval="70" />
+        <Step Stream="6" Order="1" Degree="-13" Interval="70" />
+        <Step Stream="6" Order="2" Degree="37" Interval="70" />
+        <Step Stream="6" Order="3" Degree="-37" Interval="70" />
+        <Step Stream="6" Order="4" Degree="-19" Interval="70" />
+      </Steps>
+    </Action>
+    <Action ID="100000089" Caption="右直拳01">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="29" Interval="60" />
+        <Step Stream="1" Order="2" Degree="-76" Interval="60" />
+        <Step Stream="1" Order="3" Degree="17" Interval="60" />
+        <Step Stream="1" Order="4" Degree="24" Interval="60" />
+        <Step Stream="2" Order="1" Degree="0" Interval="60" />
+        <Step Stream="2" Order="2" Degree="-59" Interval="60" />
+        <Step Stream="2" Order="3" Degree="93" Interval="60" />
+        <Step Stream="4" Order="1" Degree="-94" Interval="60" />
+        <Step Stream="5" Order="1" Degree="-84" Interval="60" />
+        <Step Stream="5" Order="2" Degree="12" Interval="60" />
+        <Step Stream="5" Order="3" Degree="1" Interval="60" />
+        <Step Stream="6" Order="1" Degree="-15" Interval="60" />
+        <Step Stream="6" Order="2" Degree="-13" Interval="60" />
+        <Step Stream="6" Order="3" Degree="-64" Interval="60" />
+        <Step Stream="6" Order="4" Degree="-32" Interval="60" />
+      </Steps>
+    </Action>
+    <Action ID="100000171" Caption="左直拳蓄力">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="16" Interval="70" />
+        <Step Stream="1" Order="2" Degree="-37" Interval="70" />
+        <Step Stream="1" Order="3" Degree="37" Interval="70" />
+        <Step Stream="1" Order="4" Degree="22" Interval="70" />
+        <Step Stream="2" Order="1" Degree="-36" Interval="70" />
+        <Step Stream="2" Order="2" Degree="-58" Interval="70" />
+        <Step Stream="2" Order="3" Degree="94" Interval="70" />
+        <Step Stream="4" Order="1" Degree="-36" Interval="70" />
+        <Step Stream="5" Order="1" Degree="0" Interval="70" />
+        <Step Stream="5" Order="2" Degree="58" Interval="70" />
+        <Step Stream="5" Order="3" Degree="-45" Interval="70" />
+        <Step Stream="6" Order="1" Degree="-13" Interval="70" />
+        <Step Stream="6" Order="2" Degree="37" Interval="70" />
+        <Step Stream="6" Order="3" Degree="-37" Interval="70" />
+        <Step Stream="6" Order="4" Degree="-18" Interval="70" />
+      </Steps>
+    </Action>
+    <Action ID="100000097" Caption="左直拳">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="30" Interval="30" />
+        <Step Stream="1" Order="2" Degree="8" Interval="30" />
+        <Step Stream="1" Order="3" Degree="57" Interval="30" />
+        <Step Stream="1" Order="4" Degree="37" Interval="30" />
+        <Step Stream="2" Order="1" Degree="88" Interval="30" />
+        <Step Stream="2" Order="2" Degree="-1" Interval="30" />
+        <Step Stream="2" Order="3" Degree="-1" Interval="30" />
+        <Step Stream="4" Order="1" Degree="90" Interval="30" />
+        <Step Stream="5" Order="1" Degree="1" Interval="30" />
+        <Step Stream="5" Order="2" Degree="62" Interval="30" />
+        <Step Stream="5" Order="3" Degree="-93" Interval="30" />
+        <Step Stream="6" Order="1" Degree="-18" Interval="30" />
+        <Step Stream="6" Order="2" Degree="56" Interval="30" />
+        <Step Stream="6" Order="3" Degree="-21" Interval="30" />
+        <Step Stream="6" Order="4" Degree="-28" Interval="30" />
+      </Steps>
+    </Action>
+    <Action ID="100000104" Caption="左勾拳001">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="39" Interval="160" />
+        <Step Stream="1" Order="2" Degree="-67" Interval="160" />
+        <Step Stream="1" Order="3" Degree="67" Interval="160" />
+        <Step Stream="1" Order="4" Degree="21" Interval="160" />
+        <Step Stream="2" Order="1" Degree="-1" Interval="160" />
+        <Step Stream="2" Order="2" Degree="-39" Interval="160" />
+        <Step Stream="2" Order="3" Degree="6" Interval="160" />
+        <Step Stream="4" Order="1" Degree="-38" Interval="160" />
+        <Step Stream="5" Order="1" Degree="0" Interval="160" />
+        <Step Stream="5" Order="2" Degree="60" Interval="160" />
+        <Step Stream="5" Order="3" Degree="-45" Interval="160" />
+        <Step Stream="6" Order="1" Degree="-4" Interval="160" />
+        <Step Stream="6" Order="2" Degree="20" Interval="160" />
+        <Step Stream="6" Order="3" Degree="-57" Interval="160" />
+        <Step Stream="6" Order="4" Degree="-30" Interval="160" />
+      </Steps>
+    </Action>
+    <Action ID="100000105" Caption="左勾拳003">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="33" Interval="160" />
+        <Step Stream="1" Order="2" Degree="-47" Interval="160" />
+        <Step Stream="1" Order="3" Degree="20" Interval="160" />
+        <Step Stream="1" Order="4" Degree="31" Interval="160" />
+        <Step Stream="2" Order="1" Degree="91" Interval="160" />
+        <Step Stream="2" Order="2" Degree="-76" Interval="160" />
+        <Step Stream="2" Order="3" Degree="41" Interval="160" />
+        <Step Stream="4" Order="1" Degree="72" Interval="160" />
+        <Step Stream="5" Order="1" Degree="0" Interval="160" />
+        <Step Stream="5" Order="2" Degree="61" Interval="160" />
+        <Step Stream="5" Order="3" Degree="-45" Interval="160" />
+        <Step Stream="6" Order="1" Degree="-8" Interval="160" />
+        <Step Stream="6" Order="2" Degree="12" Interval="160" />
+        <Step Stream="6" Order="3" Degree="-42" Interval="160" />
+        <Step Stream="6" Order="4" Degree="-23" Interval="160" />
+      </Steps>
+    </Action>
+    <Action ID="100000113" Caption="右勾拳001">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="20" Interval="160" />
+        <Step Stream="1" Order="2" Degree="-34" Interval="160" />
+        <Step Stream="1" Order="3" Degree="55" Interval="160" />
+        <Step Stream="1" Order="4" Degree="37" Interval="160" />
+        <Step Stream="2" Order="1" Degree="-1" Interval="160" />
+        <Step Stream="2" Order="2" Degree="-52" Interval="160" />
+        <Step Stream="2" Order="3" Degree="45" Interval="160" />
+        <Step Stream="4" Order="1" Degree="38" Interval="160" />
+        <Step Stream="5" Order="1" Degree="0" Interval="160" />
+        <Step Stream="5" Order="2" Degree="61" Interval="160" />
+        <Step Stream="5" Order="3" Degree="-16" Interval="160" />
+        <Step Stream="6" Order="1" Degree="-21" Interval="160" />
+        <Step Stream="6" Order="2" Degree="66" Interval="160" />
+        <Step Stream="6" Order="3" Degree="-58" Interval="160" />
+        <Step Stream="6" Order="4" Degree="-14" Interval="160" />
+      </Steps>
+    </Action>
+    <Action ID="100000114" Caption="右勾拳002">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="9" Interval="160" />
+        <Step Stream="1" Order="2" Degree="-18" Interval="160" />
+        <Step Stream="1" Order="3" Degree="48" Interval="160" />
+        <Step Stream="1" Order="4" Degree="24" Interval="160" />
+        <Step Stream="2" Order="1" Degree="-2" Interval="160" />
+        <Step Stream="2" Order="2" Degree="-65" Interval="160" />
+        <Step Stream="2" Order="3" Degree="42" Interval="160" />
+        <Step Stream="4" Order="1" Degree="-63" Interval="160" />
+        <Step Stream="5" Order="1" Degree="-60" Interval="160" />
+        <Step Stream="5" Order="2" Degree="33" Interval="160" />
+        <Step Stream="5" Order="3" Degree="-70" Interval="160" />
+        <Step Stream="6" Order="1" Degree="-21" Interval="160" />
+        <Step Stream="6" Order="2" Degree="66" Interval="160" />
+        <Step Stream="6" Order="3" Degree="-16" Interval="160" />
+        <Step Stream="6" Order="4" Degree="-11" Interval="160" />
+      </Steps>
+    </Action>
+    <Action ID="100000117" Caption="右跳转002">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="7" Interval="60" />
+        <Step Stream="1" Order="2" Degree="-40" Interval="60" />
+        <Step Stream="1" Order="3" Degree="40" Interval="60" />
+        <Step Stream="1" Order="4" Degree="30" Interval="60" />
+        <Step Stream="2" Order="1" Degree="-2" Interval="60" />
+        <Step Stream="2" Order="2" Degree="-59" Interval="60" />
+        <Step Stream="2" Order="3" Degree="45" Interval="60" />
+        <Step Stream="4" Order="1" Degree="88" Interval="60" />
+        <Step Stream="5" Order="1" Degree="1" Interval="60" />
+        <Step Stream="5" Order="2" Degree="59" Interval="60" />
+        <Step Stream="5" Order="3" Degree="-45" Interval="60" />
+        <Step Stream="6" Order="1" Degree="-10" Interval="60" />
+        <Step Stream="6" Order="2" Degree="40" Interval="60" />
+        <Step Stream="6" Order="3" Degree="-40" Interval="60" />
+        <Step Stream="6" Order="4" Degree="-30" Interval="60" />
+      </Steps>
+    </Action>
+    <Action ID="100000118" Caption="右跳转003">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="7" Interval="30" />
+        <Step Stream="1" Order="2" Degree="-51" Interval="30" />
+        <Step Stream="1" Order="3" Degree="51" Interval="30" />
+        <Step Stream="1" Order="4" Degree="8" Interval="30" />
+        <Step Stream="2" Order="1" Degree="-2" Interval="30" />
+        <Step Stream="2" Order="2" Degree="-59" Interval="30" />
+        <Step Stream="2" Order="3" Degree="45" Interval="30" />
+        <Step Stream="4" Order="1" Degree="0" Interval="30" />
+        <Step Stream="5" Order="1" Degree="1" Interval="30" />
+        <Step Stream="5" Order="2" Degree="59" Interval="30" />
+        <Step Stream="5" Order="3" Degree="-45" Interval="30" />
+        <Step Stream="6" Order="1" Degree="-3" Interval="30" />
+        <Step Stream="6" Order="2" Degree="49" Interval="30" />
+        <Step Stream="6" Order="3" Degree="-50" Interval="30" />
+        <Step Stream="6" Order="4" Degree="-3" Interval="30" />
+      </Steps>
+    </Action>
+    <Action ID="100000124" Caption="左跳转002">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="7" Interval="60" />
+        <Step Stream="1" Order="2" Degree="-36" Interval="60" />
+        <Step Stream="1" Order="3" Degree="36" Interval="60" />
+        <Step Stream="1" Order="4" Degree="30" Interval="60" />
+        <Step Stream="2" Order="1" Degree="-1" Interval="60" />
+        <Step Stream="2" Order="2" Degree="-58" Interval="60" />
+        <Step Stream="2" Order="3" Degree="45" Interval="60" />
+        <Step Stream="4" Order="1" Degree="-90" Interval="60" />
+        <Step Stream="5" Order="1" Degree="0" Interval="60" />
+        <Step Stream="5" Order="2" Degree="58" Interval="60" />
+        <Step Stream="5" Order="3" Degree="-45" Interval="60" />
+        <Step Stream="6" Order="1" Degree="-10" Interval="60" />
+        <Step Stream="6" Order="2" Degree="36" Interval="60" />
+        <Step Stream="6" Order="3" Degree="-36" Interval="60" />
+        <Step Stream="6" Order="4" Degree="-30" Interval="60" />
+      </Steps>
+    </Action>
+    <Action ID="100000125" Caption="左跳转003">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="7" Interval="30" />
+        <Step Stream="1" Order="2" Degree="-52" Interval="30" />
+        <Step Stream="1" Order="3" Degree="52" Interval="30" />
+        <Step Stream="1" Order="4" Degree="12" Interval="30" />
+        <Step Stream="2" Order="1" Degree="-2" Interval="30" />
+        <Step Stream="2" Order="2" Degree="-61" Interval="30" />
+        <Step Stream="2" Order="3" Degree="45" Interval="30" />
+        <Step Stream="4" Order="1" Degree="0" Interval="30" />
+        <Step Stream="5" Order="1" Degree="1" Interval="30" />
+        <Step Stream="5" Order="2" Degree="60" Interval="30" />
+        <Step Stream="5" Order="3" Degree="-45" Interval="30" />
+        <Step Stream="6" Order="1" Degree="-3" Interval="30" />
+        <Step Stream="6" Order="2" Degree="51" Interval="30" />
+        <Step Stream="6" Order="3" Degree="-52" Interval="30" />
+        <Step Stream="6" Order="4" Degree="-2" Interval="30" />
+      </Steps>
+    </Action>
+    <Action ID="100000127" Caption="右侧滑001">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="30" Interval="30" />
+        <Step Stream="1" Order="2" Degree="-33" Interval="30" />
+        <Step Stream="1" Order="3" Degree="44" Interval="30" />
+        <Step Stream="1" Order="4" Degree="31" Interval="30" />
+        <Step Stream="2" Order="1" Degree="-2" Interval="30" />
+        <Step Stream="2" Order="2" Degree="-60" Interval="30" />
+        <Step Stream="2" Order="3" Degree="44" Interval="30" />
+        <Step Stream="4" Order="1" Degree="0" Interval="30" />
+        <Step Stream="5" Order="1" Degree="1" Interval="30" />
+        <Step Stream="5" Order="2" Degree="60" Interval="30" />
+        <Step Stream="5" Order="3" Degree="-43" Interval="30" />
+        <Step Stream="6" Order="1" Degree="-10" Interval="30" />
+        <Step Stream="6" Order="2" Degree="55" Interval="30" />
+        <Step Stream="6" Order="3" Degree="-62" Interval="30" />
+        <Step Stream="6" Order="4" Degree="-2" Interval="30" />
+      </Steps>
+    </Action>
+    <Action ID="100000128" Caption="右侧滑002">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="4" Interval="30" />
+        <Step Stream="1" Order="2" Degree="-51" Interval="30" />
+        <Step Stream="1" Order="3" Degree="58" Interval="30" />
+        <Step Stream="1" Order="4" Degree="7" Interval="30" />
+        <Step Stream="2" Order="1" Degree="-2" Interval="30" />
+        <Step Stream="2" Order="2" Degree="-72" Interval="30" />
+        <Step Stream="2" Order="3" Degree="44" Interval="30" />
+        <Step Stream="4" Order="1" Degree="0" Interval="30" />
+        <Step Stream="5" Order="1" Degree="1" Interval="30" />
+        <Step Stream="5" Order="2" Degree="70" Interval="30" />
+        <Step Stream="5" Order="3" Degree="-44" Interval="30" />
+        <Step Stream="6" Order="1" Degree="-3" Interval="30" />
+        <Step Stream="6" Order="2" Degree="51" Interval="30" />
+        <Step Stream="6" Order="3" Degree="-58" Interval="30" />
+        <Step Stream="6" Order="4" Degree="-4" Interval="30" />
+      </Steps>
+    </Action>
+    <Action ID="1197656575" Caption="前进001">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="-2" Interval="80" />
+        <Step Stream="1" Order="2" Degree="-63" Interval="80" />
+        <Step Stream="1" Order="3" Degree="43" Interval="80" />
+        <Step Stream="1" Order="4" Degree="0" Interval="80" />
+        <Step Stream="2" Order="1" Degree="-19" Interval="80" />
+        <Step Stream="2" Order="2" Degree="-76" Interval="80" />
+        <Step Stream="2" Order="3" Degree="44" Interval="80" />
+        <Step Stream="4" Order="1" Degree="0" Interval="80" />
+        <Step Stream="5" Order="1" Degree="-20" Interval="80" />
+        <Step Stream="5" Order="2" Degree="75" Interval="80" />
+        <Step Stream="5" Order="3" Degree="-44" Interval="80" />
+        <Step Stream="6" Order="1" Degree="2" Interval="80" />
+        <Step Stream="6" Order="2" Degree="21" Interval="80" />
+        <Step Stream="6" Order="3" Degree="-57" Interval="80" />
+        <Step Stream="6" Order="4" Degree="5" Interval="80" />
+      </Steps>
+    </Action>
+    <Action ID="1540454397" Caption="前进002">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="-2" Interval="10" />
+        <Step Stream="1" Order="2" Degree="-55" Interval="10" />
+        <Step Stream="1" Order="3" Degree="29" Interval="10" />
+        <Step Stream="1" Order="4" Degree="0" Interval="10" />
+        <Step Stream="2" Order="1" Degree="-4" Interval="10" />
+        <Step Stream="2" Order="2" Degree="-76" Interval="10" />
+        <Step Stream="2" Order="3" Degree="44" Interval="10" />
+        <Step Stream="4" Order="1" Degree="0" Interval="10" />
+        <Step Stream="5" Order="1" Degree="1" Interval="10" />
+        <Step Stream="5" Order="2" Degree="76" Interval="10" />
+        <Step Stream="5" Order="3" Degree="-44" Interval="10" />
+        <Step Stream="6" Order="1" Degree="2" Interval="10" />
+        <Step Stream="6" Order="2" Degree="21" Interval="10" />
+        <Step Stream="6" Order="3" Degree="-57" Interval="10" />
+        <Step Stream="6" Order="4" Degree="2" Interval="10" />
+      </Steps>
+    </Action>
+    <Action ID="803283404" Caption="前进003">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="-2" Interval="80" />
+        <Step Stream="1" Order="2" Degree="-21" Interval="80" />
+        <Step Stream="1" Order="3" Degree="57" Interval="80" />
+        <Step Stream="1" Order="4" Degree="-5" Interval="80" />
+        <Step Stream="2" Order="1" Degree="20" Interval="80" />
+        <Step Stream="2" Order="2" Degree="-76" Interval="80" />
+        <Step Stream="2" Order="3" Degree="45" Interval="80" />
+        <Step Stream="4" Order="1" Degree="0" Interval="80" />
+        <Step Stream="5" Order="1" Degree="20" Interval="80" />
+        <Step Stream="5" Order="2" Degree="76" Interval="80" />
+        <Step Stream="5" Order="3" Degree="-44" Interval="80" />
+        <Step Stream="6" Order="1" Degree="2" Interval="80" />
+        <Step Stream="6" Order="2" Degree="59" Interval="80" />
+        <Step Stream="6" Order="3" Degree="-48" Interval="80" />
+        <Step Stream="6" Order="4" Degree="0" Interval="80" />
+      </Steps>
+    </Action>
+    <Action ID="350333398" Caption="前进004">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="-2" Interval="10" />
+        <Step Stream="1" Order="2" Degree="-21" Interval="10" />
+        <Step Stream="1" Order="3" Degree="57" Interval="10" />
+        <Step Stream="1" Order="4" Degree="0" Interval="10" />
+        <Step Stream="2" Order="1" Degree="-3" Interval="10" />
+        <Step Stream="2" Order="2" Degree="-77" Interval="10" />
+        <Step Stream="2" Order="3" Degree="45" Interval="10" />
+        <Step Stream="4" Order="1" Degree="0" Interval="10" />
+        <Step Stream="5" Order="1" Degree="1" Interval="10" />
+        <Step Stream="5" Order="2" Degree="76" Interval="10" />
+        <Step Stream="5" Order="3" Degree="-44" Interval="10" />
+        <Step Stream="6" Order="1" Degree="2" Interval="10" />
+        <Step Stream="6" Order="2" Degree="47" Interval="10" />
+        <Step Stream="6" Order="3" Degree="-42" Interval="10" />
+        <Step Stream="6" Order="4" Degree="2" Interval="10" />
+      </Steps>
+    </Action>
+    <Action ID="100000155" Caption="后倒站起001">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="8" Interval="120" />
+        <Step Stream="1" Order="2" Degree="-88" Interval="120" />
+        <Step Stream="1" Order="3" Degree="81" Interval="120" />
+        <Step Stream="1" Order="4" Degree="12" Interval="120" />
+        <Step Stream="2" Order="1" Degree="-2" Interval="120" />
+        <Step Stream="2" Order="2" Degree="-58" Interval="120" />
+        <Step Stream="2" Order="3" Degree="45" Interval="120" />
+        <Step Stream="4" Order="1" Degree="0" Interval="120" />
+        <Step Stream="5" Order="1" Degree="1" Interval="120" />
+        <Step Stream="5" Order="2" Degree="58" Interval="120" />
+        <Step Stream="5" Order="3" Degree="-45" Interval="120" />
+        <Step Stream="6" Order="1" Degree="-6" Interval="120" />
+        <Step Stream="6" Order="2" Degree="91" Interval="120" />
+        <Step Stream="6" Order="3" Degree="-83" Interval="120" />
+        <Step Stream="6" Order="4" Degree="-10" Interval="120" />
+      </Steps>
+    </Action>
+    <Action ID="100000156" Caption="后倒站起002">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="16" Interval="120" />
+        <Step Stream="1" Order="2" Degree="-88" Interval="120" />
+        <Step Stream="1" Order="3" Degree="81" Interval="120" />
+        <Step Stream="1" Order="4" Degree="25" Interval="120" />
+        <Step Stream="2" Order="1" Degree="-88" Interval="120" />
+        <Step Stream="2" Order="2" Degree="6" Interval="120" />
+        <Step Stream="2" Order="3" Degree="4" Interval="120" />
+        <Step Stream="4" Order="1" Degree="1" Interval="120" />
+        <Step Stream="5" Order="1" Degree="88" Interval="120" />
+        <Step Stream="5" Order="2" Degree="-16" Interval="120" />
+        <Step Stream="5" Order="3" Degree="0" Interval="120" />
+        <Step Stream="6" Order="1" Degree="-16" Interval="120" />
+        <Step Stream="6" Order="2" Degree="88" Interval="120" />
+        <Step Stream="6" Order="3" Degree="-83" Interval="120" />
+        <Step Stream="6" Order="4" Degree="-21" Interval="120" />
+      </Steps>
+    </Action>
+    <Action ID="100000157" Caption="后倒站起003">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="30" Interval="120" />
+        <Step Stream="1" Order="2" Degree="-88" Interval="120" />
+        <Step Stream="1" Order="3" Degree="81" Interval="120" />
+        <Step Stream="1" Order="4" Degree="25" Interval="120" />
+        <Step Stream="2" Order="1" Degree="-90" Interval="120" />
+        <Step Stream="2" Order="2" Degree="-85" Interval="120" />
+        <Step Stream="2" Order="3" Degree="0" Interval="120" />
+        <Step Stream="4" Order="1" Degree="1" Interval="120" />
+        <Step Stream="5" Order="1" Degree="89" Interval="120" />
+        <Step Stream="5" Order="2" Degree="86" Interval="120" />
+        <Step Stream="5" Order="3" Degree="0" Interval="120" />
+        <Step Stream="6" Order="1" Degree="-5" Interval="120" />
+        <Step Stream="6" Order="2" Degree="91" Interval="120" />
+        <Step Stream="6" Order="3" Degree="-83" Interval="120" />
+        <Step Stream="6" Order="4" Degree="-21" Interval="120" />
+      </Steps>
+    </Action>
+    <Action ID="100000158" Caption="后倒站起004">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="30" Interval="360" />
+        <Step Stream="1" Order="2" Degree="-88" Interval="360" />
+        <Step Stream="1" Order="3" Degree="81" Interval="360" />
+        <Step Stream="1" Order="4" Degree="33" Interval="360" />
+        <Step Stream="2" Order="1" Degree="5" Interval="360" />
+        <Step Stream="2" Order="2" Degree="-47" Interval="360" />
+        <Step Stream="2" Order="3" Degree="2" Interval="360" />
+        <Step Stream="4" Order="1" Degree="-90" Interval="360" />
+        <Step Stream="5" Order="1" Degree="0" Interval="360" />
+        <Step Stream="5" Order="2" Degree="45" Interval="360" />
+        <Step Stream="5" Order="3" Degree="0" Interval="360" />
+        <Step Stream="6" Order="1" Degree="-26" Interval="360" />
+        <Step Stream="6" Order="2" Degree="91" Interval="360" />
+        <Step Stream="6" Order="3" Degree="-84" Interval="360" />
+        <Step Stream="6" Order="4" Degree="-33" Interval="360" />
+      </Steps>
+    </Action>
+    <Action ID="100000161" Caption="前倒站起001">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="15" Interval="120" />
+        <Step Stream="1" Order="2" Degree="-88" Interval="120" />
+        <Step Stream="1" Order="3" Degree="83" Interval="120" />
+        <Step Stream="1" Order="4" Degree="18" Interval="120" />
+        <Step Stream="2" Order="1" Degree="-3" Interval="120" />
+        <Step Stream="2" Order="2" Degree="-58" Interval="120" />
+        <Step Stream="2" Order="3" Degree="0" Interval="120" />
+        <Step Stream="4" Order="1" Degree="0" Interval="120" />
+        <Step Stream="5" Order="1" Degree="2" Interval="120" />
+        <Step Stream="5" Order="2" Degree="58" Interval="120" />
+        <Step Stream="5" Order="3" Degree="0" Interval="120" />
+        <Step Stream="6" Order="1" Degree="-9" Interval="120" />
+        <Step Stream="6" Order="2" Degree="89" Interval="120" />
+        <Step Stream="6" Order="3" Degree="-82" Interval="120" />
+        <Step Stream="6" Order="4" Degree="-10" Interval="120" />
+      </Steps>
+    </Action>
+    <Action ID="100000162" Caption="前倒站起002">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="15" Interval="120" />
+        <Step Stream="1" Order="2" Degree="-88" Interval="120" />
+        <Step Stream="1" Order="3" Degree="83" Interval="120" />
+        <Step Stream="1" Order="4" Degree="18" Interval="120" />
+        <Step Stream="2" Order="1" Degree="93" Interval="120" />
+        <Step Stream="2" Order="2" Degree="8" Interval="120" />
+        <Step Stream="2" Order="3" Degree="-3" Interval="120" />
+        <Step Stream="4" Order="1" Degree="0" Interval="120" />
+        <Step Stream="5" Order="1" Degree="-90" Interval="120" />
+        <Step Stream="5" Order="2" Degree="-12" Interval="120" />
+        <Step Stream="5" Order="3" Degree="-1" Interval="120" />
+        <Step Stream="6" Order="1" Degree="-9" Interval="120" />
+        <Step Stream="6" Order="2" Degree="89" Interval="120" />
+        <Step Stream="6" Order="3" Degree="-82" Interval="120" />
+        <Step Stream="6" Order="4" Degree="-10" Interval="120" />
+      </Steps>
+    </Action>
+    <Action ID="100000163" Caption="前倒站起003">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="15" Interval="360" />
+        <Step Stream="1" Order="2" Degree="-88" Interval="360" />
+        <Step Stream="1" Order="3" Degree="83" Interval="360" />
+        <Step Stream="1" Order="4" Degree="18" Interval="360" />
+        <Step Stream="2" Order="1" Degree="89" Interval="360" />
+        <Step Stream="2" Order="2" Degree="-89" Interval="360" />
+        <Step Stream="2" Order="3" Degree="-3" Interval="360" />
+        <Step Stream="4" Order="1" Degree="0" Interval="360" />
+        <Step Stream="5" Order="1" Degree="-88" Interval="360" />
+        <Step Stream="5" Order="2" Degree="86" Interval="360" />
+        <Step Stream="5" Order="3" Degree="-1" Interval="360" />
+        <Step Stream="6" Order="1" Degree="-9" Interval="360" />
+        <Step Stream="6" Order="2" Degree="89" Interval="360" />
+        <Step Stream="6" Order="3" Degree="-82" Interval="360" />
+        <Step Stream="6" Order="4" Degree="-10" Interval="360" />
+      </Steps>
+    </Action>
+    <Action ID="100000164" Caption="前倒站起004">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="15" Interval="250" />
+        <Step Stream="1" Order="2" Degree="-88" Interval="250" />
+        <Step Stream="1" Order="3" Degree="83" Interval="250" />
+        <Step Stream="1" Order="4" Degree="18" Interval="250" />
+        <Step Stream="2" Order="1" Degree="1" Interval="250" />
+        <Step Stream="2" Order="2" Degree="-38" Interval="250" />
+        <Step Stream="2" Order="3" Degree="1" Interval="250" />
+        <Step Stream="4" Order="1" Degree="90" Interval="250" />
+        <Step Stream="5" Order="1" Degree="5" Interval="250" />
+        <Step Stream="5" Order="2" Degree="51" Interval="250" />
+        <Step Stream="5" Order="3" Degree="-2" Interval="250" />
+        <Step Stream="6" Order="1" Degree="-10" Interval="250" />
+        <Step Stream="6" Order="2" Degree="89" Interval="250" />
+        <Step Stream="6" Order="3" Degree="-83" Interval="250" />
+        <Step Stream="6" Order="4" Degree="-10" Interval="250" />
+      </Steps>
+    </Action>
+    <Action ID="100000169" Caption="防御">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="23" Interval="80" />
+        <Step Stream="1" Order="2" Degree="-86" Interval="80" />
+        <Step Stream="1" Order="3" Degree="84" Interval="80" />
+        <Step Stream="1" Order="4" Degree="23" Interval="80" />
+        <Step Stream="2" Order="1" Degree="-1" Interval="80" />
+        <Step Stream="2" Order="2" Degree="-59" Interval="80" />
+        <Step Stream="2" Order="3" Degree="45" Interval="80" />
+        <Step Stream="4" Order="1" Degree="2" Interval="80" />
+        <Step Stream="5" Order="1" Degree="0" Interval="80" />
+        <Step Stream="5" Order="2" Degree="59" Interval="80" />
+        <Step Stream="5" Order="3" Degree="-45" Interval="80" />
+        <Step Stream="6" Order="1" Degree="-18" Interval="80" />
+        <Step Stream="6" Order="2" Degree="87" Interval="80" />
+        <Step Stream="6" Order="3" Degree="-77" Interval="80" />
+        <Step Stream="6" Order="4" Degree="-20" Interval="80" />
+      </Steps>
+    </Action>
+    <Action ID="100000174" Caption="前滚翻001">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="18" Interval="30" />
+        <Step Stream="1" Order="2" Degree="36" Interval="30" />
+        <Step Stream="1" Order="3" Degree="87" Interval="30" />
+        <Step Stream="1" Order="4" Degree="15" Interval="30" />
+        <Step Stream="2" Order="1" Degree="-39" Interval="30" />
+        <Step Stream="2" Order="2" Degree="-61" Interval="30" />
+        <Step Stream="2" Order="3" Degree="50" Interval="30" />
+        <Step Stream="4" Order="1" Degree="-1" Interval="30" />
+        <Step Stream="5" Order="1" Degree="33" Interval="30" />
+        <Step Stream="5" Order="2" Degree="73" Interval="30" />
+        <Step Stream="5" Order="3" Degree="-50" Interval="30" />
+        <Step Stream="6" Order="1" Degree="3" Interval="30" />
+        <Step Stream="6" Order="2" Degree="-36" Interval="30" />
+        <Step Stream="6" Order="3" Degree="-86" Interval="30" />
+        <Step Stream="6" Order="4" Degree="0" Interval="30" />
+      </Steps>
+    </Action>
+    <Action ID="100000175" Caption="前滚翻002">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="12" Interval="200" />
+        <Step Stream="1" Order="2" Degree="-69" Interval="200" />
+        <Step Stream="1" Order="3" Degree="87" Interval="200" />
+        <Step Stream="1" Order="4" Degree="15" Interval="200" />
+        <Step Stream="2" Order="1" Degree="-8" Interval="200" />
+        <Step Stream="2" Order="2" Degree="-61" Interval="200" />
+        <Step Stream="2" Order="3" Degree="50" Interval="200" />
+        <Step Stream="4" Order="1" Degree="1" Interval="200" />
+        <Step Stream="5" Order="1" Degree="8" Interval="200" />
+        <Step Stream="5" Order="2" Degree="73" Interval="200" />
+        <Step Stream="5" Order="3" Degree="-50" Interval="200" />
+        <Step Stream="6" Order="1" Degree="-6" Interval="200" />
+        <Step Stream="6" Order="2" Degree="62" Interval="200" />
+        <Step Stream="6" Order="3" Degree="-86" Interval="200" />
+        <Step Stream="6" Order="4" Degree="0" Interval="200" />
+      </Steps>
+    </Action>
+    <Action ID="100000176" Caption="前滚翻003">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="12" Interval="200" />
+        <Step Stream="1" Order="2" Degree="-69" Interval="200" />
+        <Step Stream="1" Order="3" Degree="87" Interval="200" />
+        <Step Stream="1" Order="4" Degree="15" Interval="200" />
+        <Step Stream="2" Order="1" Degree="89" Interval="200" />
+        <Step Stream="2" Order="2" Degree="-69" Interval="200" />
+        <Step Stream="2" Order="3" Degree="66" Interval="200" />
+        <Step Stream="4" Order="1" Degree="1" Interval="200" />
+        <Step Stream="5" Order="1" Degree="-88" Interval="200" />
+        <Step Stream="5" Order="2" Degree="69" Interval="200" />
+        <Step Stream="5" Order="3" Degree="-66" Interval="200" />
+        <Step Stream="6" Order="1" Degree="-6" Interval="200" />
+        <Step Stream="6" Order="2" Degree="62" Interval="200" />
+        <Step Stream="6" Order="3" Degree="-86" Interval="200" />
+        <Step Stream="6" Order="4" Degree="0" Interval="200" />
+      </Steps>
+    </Action>
+    <Action ID="100000177" Caption="前滚翻004">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="6" Interval="100" />
+        <Step Stream="1" Order="2" Degree="0" Interval="100" />
+        <Step Stream="1" Order="3" Degree="16" Interval="100" />
+        <Step Stream="1" Order="4" Degree="6" Interval="100" />
+        <Step Stream="2" Order="1" Degree="94" Interval="100" />
+        <Step Stream="2" Order="2" Degree="-69" Interval="100" />
+        <Step Stream="2" Order="3" Degree="66" Interval="100" />
+        <Step Stream="4" Order="1" Degree="1" Interval="100" />
+        <Step Stream="5" Order="1" Degree="-90" Interval="100" />
+        <Step Stream="5" Order="2" Degree="69" Interval="100" />
+        <Step Stream="5" Order="3" Degree="-66" Interval="100" />
+        <Step Stream="6" Order="1" Degree="0" Interval="100" />
+        <Step Stream="6" Order="2" Degree="0" Interval="100" />
+        <Step Stream="6" Order="3" Degree="-16" Interval="100" />
+        <Step Stream="6" Order="4" Degree="-6" Interval="100" />
+      </Steps>
+    </Action>
+    <Action ID="100000192" Caption="右侧踢000">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="5" Interval="200" />
+        <Step Stream="1" Order="2" Degree="-78" Interval="200" />
+        <Step Stream="1" Order="3" Degree="81" Interval="200" />
+        <Step Stream="1" Order="4" Degree="-17" Interval="200" />
+        <Step Stream="2" Order="1" Degree="-21" Interval="200" />
+        <Step Stream="2" Order="2" Degree="-3" Interval="200" />
+        <Step Stream="2" Order="3" Degree="74" Interval="200" />
+        <Step Stream="4" Order="1" Degree="88" Interval="200" />
+        <Step Stream="5" Order="1" Degree="22" Interval="200" />
+        <Step Stream="5" Order="2" Degree="3" Interval="200" />
+        <Step Stream="5" Order="3" Degree="-75" Interval="200" />
+        <Step Stream="6" Order="1" Degree="-7" Interval="200" />
+        <Step Stream="6" Order="2" Degree="59" Interval="200" />
+        <Step Stream="6" Order="3" Degree="-67" Interval="200" />
+        <Step Stream="6" Order="4" Degree="-37" Interval="200" />
+      </Steps>
+    </Action>
+    <Action ID="100000191" Caption="右侧踢001">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="46" Interval="60" />
+        <Step Stream="1" Order="2" Degree="-41" Interval="60" />
+        <Step Stream="1" Order="3" Degree="39" Interval="60" />
+        <Step Stream="1" Order="4" Degree="-6" Interval="60" />
+        <Step Stream="2" Order="1" Degree="-1" Interval="60" />
+        <Step Stream="2" Order="2" Degree="-1" Interval="60" />
+        <Step Stream="2" Order="3" Degree="75" Interval="60" />
+        <Step Stream="4" Order="1" Degree="90" Interval="60" />
+        <Step Stream="5" Order="1" Degree="2" Interval="60" />
+        <Step Stream="5" Order="2" Degree="1" Interval="60" />
+        <Step Stream="5" Order="3" Degree="-75" Interval="60" />
+        <Step Stream="6" Order="1" Degree="-82" Interval="60" />
+        <Step Stream="6" Order="2" Degree="89" Interval="60" />
+        <Step Stream="6" Order="3" Degree="-82" Interval="60" />
+        <Step Stream="6" Order="4" Degree="7" Interval="60" />
+      </Steps>
+    </Action>
+    <Action ID="100000193" Caption="右侧踢002">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="66" Interval="60" />
+        <Step Stream="1" Order="2" Degree="1" Interval="60" />
+        <Step Stream="1" Order="3" Degree="-6" Interval="60" />
+        <Step Stream="1" Order="4" Degree="85" Interval="60" />
+        <Step Stream="2" Order="1" Degree="-1" Interval="60" />
+        <Step Stream="2" Order="2" Degree="0" Interval="60" />
+        <Step Stream="2" Order="3" Degree="75" Interval="60" />
+        <Step Stream="4" Order="1" Degree="90" Interval="60" />
+        <Step Stream="5" Order="1" Degree="1" Interval="60" />
+        <Step Stream="5" Order="2" Degree="0" Interval="60" />
+        <Step Stream="5" Order="3" Degree="-75" Interval="60" />
+        <Step Stream="6" Order="1" Degree="-82" Interval="60" />
+        <Step Stream="6" Order="2" Degree="-7" Interval="60" />
+        <Step Stream="6" Order="3" Degree="4" Interval="60" />
+        <Step Stream="6" Order="4" Degree="-81" Interval="60" />
+      </Steps>
+    </Action>
+    <Action ID="100000195" Caption="右侧踢003">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="15" Interval="100" />
+        <Step Stream="1" Order="2" Degree="-88" Interval="100" />
+        <Step Stream="1" Order="3" Degree="85" Interval="100" />
+        <Step Stream="1" Order="4" Degree="14" Interval="100" />
+        <Step Stream="2" Order="1" Degree="-1" Interval="100" />
+        <Step Stream="2" Order="2" Degree="-1" Interval="100" />
+        <Step Stream="2" Order="3" Degree="75" Interval="100" />
+        <Step Stream="4" Order="1" Degree="90" Interval="100" />
+        <Step Stream="5" Order="1" Degree="0" Interval="100" />
+        <Step Stream="5" Order="2" Degree="1" Interval="100" />
+        <Step Stream="5" Order="3" Degree="-75" Interval="100" />
+        <Step Stream="6" Order="1" Degree="-5" Interval="100" />
+        <Step Stream="6" Order="2" Degree="76" Interval="100" />
+        <Step Stream="6" Order="3" Degree="-86" Interval="100" />
+        <Step Stream="6" Order="4" Degree="-5" Interval="100" />
+      </Steps>
+    </Action>
+    <Action ID="100000197" Caption="右侧踢003.5">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="15" Interval="120" />
+        <Step Stream="1" Order="2" Degree="-88" Interval="120" />
+        <Step Stream="1" Order="3" Degree="85" Interval="120" />
+        <Step Stream="1" Order="4" Degree="14" Interval="120" />
+        <Step Stream="2" Order="1" Degree="-1" Interval="120" />
+        <Step Stream="2" Order="2" Degree="-1" Interval="120" />
+        <Step Stream="2" Order="3" Degree="75" Interval="120" />
+        <Step Stream="4" Order="1" Degree="1" Interval="120" />
+        <Step Stream="5" Order="1" Degree="0" Interval="120" />
+        <Step Stream="5" Order="2" Degree="1" Interval="120" />
+        <Step Stream="5" Order="3" Degree="-75" Interval="120" />
+        <Step Stream="6" Order="1" Degree="-5" Interval="120" />
+        <Step Stream="6" Order="2" Degree="76" Interval="120" />
+        <Step Stream="6" Order="3" Degree="-86" Interval="120" />
+        <Step Stream="6" Order="4" Degree="-5" Interval="120" />
+      </Steps>
+    </Action>
+    <Action ID="100000196" Caption="右侧踢004">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="9" Interval="120" />
+        <Step Stream="1" Order="2" Degree="-88" Interval="120" />
+        <Step Stream="1" Order="3" Degree="87" Interval="120" />
+        <Step Stream="1" Order="4" Degree="6" Interval="120" />
+        <Step Stream="2" Order="1" Degree="-1" Interval="120" />
+        <Step Stream="2" Order="2" Degree="-61" Interval="120" />
+        <Step Stream="2" Order="3" Degree="44" Interval="120" />
+        <Step Stream="4" Order="1" Degree="0" Interval="120" />
+        <Step Stream="5" Order="1" Degree="0" Interval="120" />
+        <Step Stream="5" Order="2" Degree="61" Interval="120" />
+        <Step Stream="5" Order="3" Degree="-44" Interval="120" />
+        <Step Stream="6" Order="1" Degree="-5" Interval="120" />
+        <Step Stream="6" Order="2" Degree="84" Interval="120" />
+        <Step Stream="6" Order="3" Degree="-86" Interval="120" />
+        <Step Stream="6" Order="4" Degree="-4" Interval="120" />
+      </Steps>
+    </Action>
+    <Action ID="2041420785" Caption="站立 -1">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="-7" Interval="300" />
+        <Step Stream="1" Order="2" Degree="-51" Interval="300" />
+        <Step Stream="1" Order="3" Degree="68" Interval="300" />
+        <Step Stream="1" Order="4" Degree="-3" Interval="300" />
+        <Step Stream="2" Order="1" Degree="-3" Interval="300" />
+        <Step Stream="2" Order="2" Degree="-64" Interval="300" />
+        <Step Stream="2" Order="3" Degree="45" Interval="300" />
+        <Step Stream="4" Order="1" Degree="0" Interval="300" />
+        <Step Stream="5" Order="1" Degree="0" Interval="300" />
+        <Step Stream="5" Order="2" Degree="64" Interval="300" />
+        <Step Stream="5" Order="3" Degree="-44" Interval="300" />
+        <Step Stream="6" Order="1" Degree="7" Interval="300" />
+        <Step Stream="6" Order="2" Degree="50" Interval="300" />
+        <Step Stream="6" Order="3" Degree="-64" Interval="300" />
+        <Step Stream="6" Order="4" Degree="4" Interval="300" />
+      </Steps>
+    </Action>
+    <Action ID="935724685" Caption="站立 -2">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="0" Interval="200" />
+        <Step Stream="1" Order="2" Degree="-37" Interval="200" />
+        <Step Stream="1" Order="3" Degree="66" Interval="200" />
+        <Step Stream="1" Order="4" Degree="4" Interval="200" />
+        <Step Stream="2" Order="1" Degree="-3" Interval="200" />
+        <Step Stream="2" Order="2" Degree="-65" Interval="200" />
+        <Step Stream="2" Order="3" Degree="45" Interval="200" />
+        <Step Stream="4" Order="1" Degree="0" Interval="200" />
+        <Step Stream="5" Order="1" Degree="0" Interval="200" />
+        <Step Stream="5" Order="2" Degree="65" Interval="200" />
+        <Step Stream="5" Order="3" Degree="-44" Interval="200" />
+        <Step Stream="6" Order="1" Degree="0" Interval="200" />
+        <Step Stream="6" Order="2" Degree="33" Interval="200" />
+        <Step Stream="6" Order="3" Degree="-58" Interval="200" />
+        <Step Stream="6" Order="4" Degree="4" Interval="200" />
+      </Steps>
+    </Action>
+    <Action ID="70837716" Caption="后退001">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="1" Interval="80" />
+        <Step Stream="1" Order="2" Degree="-25" Interval="80" />
+        <Step Stream="1" Order="3" Degree="72" Interval="80" />
+        <Step Stream="1" Order="4" Degree="1" Interval="80" />
+        <Step Stream="2" Order="1" Degree="-2" Interval="80" />
+        <Step Stream="2" Order="2" Degree="-75" Interval="80" />
+        <Step Stream="2" Order="3" Degree="45" Interval="80" />
+        <Step Stream="4" Order="1" Degree="0" Interval="80" />
+        <Step Stream="5" Order="1" Degree="1" Interval="80" />
+        <Step Stream="5" Order="2" Degree="75" Interval="80" />
+        <Step Stream="5" Order="3" Degree="-44" Interval="80" />
+        <Step Stream="6" Order="1" Degree="-1" Interval="80" />
+        <Step Stream="6" Order="2" Degree="45" Interval="80" />
+        <Step Stream="6" Order="3" Degree="-33" Interval="80" />
+        <Step Stream="6" Order="4" Degree="5" Interval="80" />
+      </Steps>
+    </Action>
+    <Action ID="945403840" Caption="后退002">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="0" Interval="30" />
+        <Step Stream="1" Order="2" Degree="-18" Interval="30" />
+        <Step Stream="1" Order="3" Degree="50" Interval="30" />
+        <Step Stream="1" Order="4" Degree="2" Interval="30" />
+        <Step Stream="2" Order="1" Degree="-2" Interval="30" />
+        <Step Stream="2" Order="2" Degree="-75" Interval="30" />
+        <Step Stream="2" Order="3" Degree="45" Interval="30" />
+        <Step Stream="4" Order="1" Degree="0" Interval="30" />
+        <Step Stream="5" Order="1" Degree="1" Interval="30" />
+        <Step Stream="5" Order="2" Degree="75" Interval="30" />
+        <Step Stream="5" Order="3" Degree="-44" Interval="30" />
+        <Step Stream="6" Order="1" Degree="0" Interval="30" />
+        <Step Stream="6" Order="2" Degree="45" Interval="30" />
+        <Step Stream="6" Order="3" Degree="-31" Interval="30" />
+        <Step Stream="6" Order="4" Degree="0" Interval="30" />
+      </Steps>
+    </Action>
+    <Action ID="1547138886" Caption="后退003">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="1" Interval="80" />
+        <Step Stream="1" Order="2" Degree="-45" Interval="80" />
+        <Step Stream="1" Order="3" Degree="33" Interval="80" />
+        <Step Stream="1" Order="4" Degree="-5" Interval="80" />
+        <Step Stream="2" Order="1" Degree="-2" Interval="80" />
+        <Step Stream="2" Order="2" Degree="-75" Interval="80" />
+        <Step Stream="2" Order="3" Degree="45" Interval="80" />
+        <Step Stream="4" Order="1" Degree="0" Interval="80" />
+        <Step Stream="5" Order="1" Degree="0" Interval="80" />
+        <Step Stream="5" Order="2" Degree="75" Interval="80" />
+        <Step Stream="5" Order="3" Degree="-44" Interval="80" />
+        <Step Stream="6" Order="1" Degree="1" Interval="80" />
+        <Step Stream="6" Order="2" Degree="25" Interval="80" />
+        <Step Stream="6" Order="3" Degree="-72" Interval="80" />
+        <Step Stream="6" Order="4" Degree="0" Interval="80" />
+      </Steps>
+    </Action>
+    <Action ID="895869551" Caption="后退004">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="0" Interval="30" />
+        <Step Stream="1" Order="2" Degree="-44" Interval="30" />
+        <Step Stream="1" Order="3" Degree="30" Interval="30" />
+        <Step Stream="1" Order="4" Degree="0" Interval="30" />
+        <Step Stream="2" Order="1" Degree="-3" Interval="30" />
+        <Step Stream="2" Order="2" Degree="-75" Interval="30" />
+        <Step Stream="2" Order="3" Degree="45" Interval="30" />
+        <Step Stream="4" Order="1" Degree="0" Interval="30" />
+        <Step Stream="5" Order="1" Degree="0" Interval="30" />
+        <Step Stream="5" Order="2" Degree="75" Interval="30" />
+        <Step Stream="5" Order="3" Degree="-44" Interval="30" />
+        <Step Stream="6" Order="1" Degree="0" Interval="30" />
+        <Step Stream="6" Order="2" Degree="18" Interval="30" />
+        <Step Stream="6" Order="3" Degree="-48" Interval="30" />
+        <Step Stream="6" Order="4" Degree="0" Interval="30" />
+      </Steps>
+    </Action>
+    <Action ID="1033102935" Caption="前进右偏001">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="0" Interval="120" />
+        <Step Stream="1" Order="2" Degree="-64" Interval="120" />
+        <Step Stream="1" Order="3" Degree="40" Interval="120" />
+        <Step Stream="1" Order="4" Degree="-2" Interval="120" />
+        <Step Stream="2" Order="1" Degree="-19" Interval="120" />
+        <Step Stream="2" Order="2" Degree="-76" Interval="120" />
+        <Step Stream="2" Order="3" Degree="44" Interval="120" />
+        <Step Stream="4" Order="1" Degree="1" Interval="120" />
+        <Step Stream="5" Order="1" Degree="-19" Interval="120" />
+        <Step Stream="5" Order="2" Degree="75" Interval="120" />
+        <Step Stream="5" Order="3" Degree="-43" Interval="120" />
+        <Step Stream="6" Order="1" Degree="4" Interval="120" />
+        <Step Stream="6" Order="2" Degree="22" Interval="120" />
+        <Step Stream="6" Order="3" Degree="-53" Interval="120" />
+        <Step Stream="6" Order="4" Degree="8" Interval="120" />
+      </Steps>
+    </Action>
+    <Action ID="558399426" Caption="前进右偏002">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="-4" Interval="10" />
+        <Step Stream="1" Order="2" Degree="-62" Interval="10" />
+        <Step Stream="1" Order="3" Degree="35" Interval="10" />
+        <Step Stream="1" Order="4" Degree="-4" Interval="10" />
+        <Step Stream="2" Order="1" Degree="-6" Interval="10" />
+        <Step Stream="2" Order="2" Degree="-77" Interval="10" />
+        <Step Stream="2" Order="3" Degree="43" Interval="10" />
+        <Step Stream="4" Order="1" Degree="0" Interval="10" />
+        <Step Stream="5" Order="1" Degree="1" Interval="10" />
+        <Step Stream="5" Order="2" Degree="76" Interval="10" />
+        <Step Stream="5" Order="3" Degree="-45" Interval="10" />
+        <Step Stream="6" Order="1" Degree="4" Interval="10" />
+        <Step Stream="6" Order="2" Degree="23" Interval="10" />
+        <Step Stream="6" Order="3" Degree="-57" Interval="10" />
+        <Step Stream="6" Order="4" Degree="5" Interval="10" />
+      </Steps>
+    </Action>
+    <Action ID="184179240" Caption="站立01">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="-2" Interval="150" />
+        <Step Stream="1" Order="2" Degree="-28" Interval="150" />
+        <Step Stream="1" Order="3" Degree="53" Interval="150" />
+        <Step Stream="1" Order="4" Degree="-2" Interval="150" />
+        <Step Stream="2" Order="1" Degree="0" Interval="150" />
+        <Step Stream="2" Order="2" Degree="-75" Interval="150" />
+        <Step Stream="2" Order="3" Degree="44" Interval="150" />
+        <Step Stream="4" Order="1" Degree="0" Interval="150" />
+        <Step Stream="5" Order="1" Degree="0" Interval="150" />
+        <Step Stream="5" Order="2" Degree="75" Interval="150" />
+        <Step Stream="5" Order="3" Degree="-43" Interval="150" />
+        <Step Stream="6" Order="1" Degree="4" Interval="150" />
+        <Step Stream="6" Order="2" Degree="21" Interval="150" />
+        <Step Stream="6" Order="3" Degree="-57" Interval="150" />
+        <Step Stream="6" Order="4" Degree="4" Interval="150" />
+      </Steps>
+    </Action>
+    <Action ID="1259648839" Caption="前进左偏003">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="-2" Interval="120" />
+        <Step Stream="1" Order="2" Degree="-22" Interval="120" />
+        <Step Stream="1" Order="3" Degree="53" Interval="120" />
+        <Step Stream="1" Order="4" Degree="-6" Interval="120" />
+        <Step Stream="2" Order="1" Degree="17" Interval="120" />
+        <Step Stream="2" Order="2" Degree="-76" Interval="120" />
+        <Step Stream="2" Order="3" Degree="44" Interval="120" />
+        <Step Stream="4" Order="1" Degree="0" Interval="120" />
+        <Step Stream="5" Order="1" Degree="18" Interval="120" />
+        <Step Stream="5" Order="2" Degree="76" Interval="120" />
+        <Step Stream="5" Order="3" Degree="-44" Interval="120" />
+        <Step Stream="6" Order="1" Degree="2" Interval="120" />
+        <Step Stream="6" Order="2" Degree="50" Interval="120" />
+        <Step Stream="6" Order="3" Degree="-51" Interval="120" />
+        <Step Stream="6" Order="4" Degree="0" Interval="120" />
+      </Steps>
+    </Action>
+    <Action ID="563963830" Caption="前进左偏004">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="-2" Interval="10" />
+        <Step Stream="1" Order="2" Degree="-22" Interval="10" />
+        <Step Stream="1" Order="3" Degree="53" Interval="10" />
+        <Step Stream="1" Order="4" Degree="-6" Interval="10" />
+        <Step Stream="2" Order="1" Degree="17" Interval="10" />
+        <Step Stream="2" Order="2" Degree="-76" Interval="10" />
+        <Step Stream="2" Order="3" Degree="44" Interval="10" />
+        <Step Stream="4" Order="1" Degree="0" Interval="10" />
+        <Step Stream="5" Order="1" Degree="20" Interval="10" />
+        <Step Stream="5" Order="2" Degree="76" Interval="10" />
+        <Step Stream="5" Order="3" Degree="-43" Interval="10" />
+        <Step Stream="6" Order="1" Degree="2" Interval="10" />
+        <Step Stream="6" Order="2" Degree="44" Interval="10" />
+        <Step Stream="6" Order="3" Degree="-40" Interval="10" />
+        <Step Stream="6" Order="4" Degree="0" Interval="10" />
+      </Steps>
+    </Action>
+    <Action ID="351177636" Caption="前进左偏001 ">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="0" Interval="80" />
+        <Step Stream="1" Order="2" Degree="-31" Interval="80" />
+        <Step Stream="1" Order="3" Degree="73" Interval="80" />
+        <Step Stream="1" Order="4" Degree="0" Interval="80" />
+        <Step Stream="2" Order="1" Degree="-17" Interval="80" />
+        <Step Stream="2" Order="2" Degree="-76" Interval="80" />
+        <Step Stream="2" Order="3" Degree="44" Interval="80" />
+        <Step Stream="4" Order="1" Degree="0" Interval="80" />
+        <Step Stream="5" Order="1" Degree="-17" Interval="80" />
+        <Step Stream="5" Order="2" Degree="76" Interval="80" />
+        <Step Stream="5" Order="3" Degree="-43" Interval="80" />
+        <Step Stream="6" Order="1" Degree="0" Interval="80" />
+        <Step Stream="6" Order="2" Degree="22" Interval="80" />
+        <Step Stream="6" Order="3" Degree="-53" Interval="80" />
+        <Step Stream="6" Order="4" Degree="4" Interval="80" />
+      </Steps>
+    </Action>
+    <Action ID="923220323" Caption="前进左偏002">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="0" Interval="0" />
+        <Step Stream="1" Order="2" Degree="-24" Interval="0" />
+        <Step Stream="1" Order="3" Degree="63" Interval="0" />
+        <Step Stream="1" Order="4" Degree="0" Interval="0" />
+        <Step Stream="2" Order="1" Degree="-17" Interval="0" />
+        <Step Stream="2" Order="2" Degree="-77" Interval="0" />
+        <Step Stream="2" Order="3" Degree="44" Interval="0" />
+        <Step Stream="4" Order="1" Degree="0" Interval="0" />
+        <Step Stream="5" Order="1" Degree="-17" Interval="0" />
+        <Step Stream="5" Order="2" Degree="76" Interval="0" />
+        <Step Stream="5" Order="3" Degree="-43" Interval="0" />
+        <Step Stream="6" Order="1" Degree="0" Interval="0" />
+        <Step Stream="6" Order="2" Degree="22" Interval="0" />
+        <Step Stream="6" Order="3" Degree="-53" Interval="0" />
+        <Step Stream="6" Order="4" Degree="0" Interval="0" />
+      </Steps>
+    </Action>
+    <Action ID="81807975" Caption="前进右偏003">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="0" Interval="150" />
+        <Step Stream="1" Order="2" Degree="-22" Interval="150" />
+        <Step Stream="1" Order="3" Degree="53" Interval="150" />
+        <Step Stream="1" Order="4" Degree="-4" Interval="150" />
+        <Step Stream="2" Order="1" Degree="18" Interval="150" />
+        <Step Stream="2" Order="2" Degree="-76" Interval="150" />
+        <Step Stream="2" Order="3" Degree="45" Interval="150" />
+        <Step Stream="4" Order="1" Degree="0" Interval="150" />
+        <Step Stream="5" Order="1" Degree="19" Interval="150" />
+        <Step Stream="5" Order="2" Degree="76" Interval="150" />
+        <Step Stream="5" Order="3" Degree="-43" Interval="150" />
+        <Step Stream="6" Order="1" Degree="1" Interval="150" />
+        <Step Stream="6" Order="2" Degree="31" Interval="150" />
+        <Step Stream="6" Order="3" Degree="-62" Interval="150" />
+        <Step Stream="6" Order="4" Degree="0" Interval="150" />
+      </Steps>
+    </Action>
+    <Action ID="1247198859" Caption="前进右偏004">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="0" Interval="0" />
+        <Step Stream="1" Order="2" Degree="-22" Interval="0" />
+        <Step Stream="1" Order="3" Degree="53" Interval="0" />
+        <Step Stream="1" Order="4" Degree="0" Interval="0" />
+        <Step Stream="2" Order="1" Degree="17" Interval="0" />
+        <Step Stream="2" Order="2" Degree="-76" Interval="0" />
+        <Step Stream="2" Order="3" Degree="44" Interval="0" />
+        <Step Stream="4" Order="1" Degree="0" Interval="0" />
+        <Step Stream="5" Order="1" Degree="18" Interval="0" />
+        <Step Stream="5" Order="2" Degree="76" Interval="0" />
+        <Step Stream="5" Order="3" Degree="-43" Interval="0" />
+        <Step Stream="6" Order="1" Degree="1" Interval="0" />
+        <Step Stream="6" Order="2" Degree="26" Interval="0" />
+        <Step Stream="6" Order="3" Degree="-56" Interval="0" />
+        <Step Stream="6" Order="4" Degree="1" Interval="0" />
+      </Steps>
+    </Action>
+  </Actions>
+  <Marcos>
+    <Marco ID="100000130" Caption="站立" Reserved="1">
+      <Commands>
+        <Command ID="100000078" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="36" Type="Delay" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="100000027" Caption="左侧滑" Reserved="1">
+      <Commands>
+        <Command ID="100000080" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000081" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="100" Type="Delay" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="100000028" Caption="右直拳" Reserved="1">
+      <Commands>
+        <Command ID="100000172" Type="Action" Ratio="30" Loop="1" />
+        <Command ID="60" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000089" Type="Action" Ratio="10" Loop="1" />
+        <Command ID="500" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000078" Type="Action" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="100000077" Caption="左直拳" Reserved="1">
+      <Commands>
+        <Command ID="100000171" Type="Action" Ratio="30" Loop="1" />
+        <Command ID="60" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000097" Type="Action" Ratio="10" Loop="1" />
+        <Command ID="500" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000078" Type="Action" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="100000087" Caption="左勾拳" Reserved="1">
+      <Commands>
+        <Command ID="100000104" Type="Action" Ratio="30" Loop="1" />
+        <Command ID="100" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000105" Type="Action" Ratio="30" Loop="1" />
+        <Command ID="200" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000078" Type="Action" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="100000109" Caption="右勾拳" Reserved="1">
+      <Commands>
+        <Command ID="100000113" Type="Action" Ratio="30" Loop="1" />
+        <Command ID="100" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000114" Type="Action" Ratio="30" Loop="1" />
+        <Command ID="206" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000078" Type="Action" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="100000115" Caption="右跳转" Reserved="1">
+      <Commands>
+        <Command ID="100000117" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="36" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000118" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="88" Type="Delay" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="100000119" Caption="左跳转" Reserved="1">
+      <Commands>
+        <Command ID="100000124" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="36" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000125" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="88" Type="Delay" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="100000126" Caption="右侧滑" Reserved="1">
+      <Commands>
+        <Command ID="100000127" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000128" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="100" Type="Delay" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="100000136" Caption="前进" Reserved="1">
+      <Commands>
+        <Command ID="1197656575" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="1540454397" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="803283404" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="350333398" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="100000154" Caption="后倒站起" Reserved="1">
+      <Commands>
+        <Command ID="100000155" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="100" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000156" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="100" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000157" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="200" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000158" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="1000" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000078" Type="Action" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="100000160" Caption="前倒站起" Reserved="1">
+      <Commands>
+        <Command ID="100000161" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="200" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000162" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="200" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000163" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="360" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000164" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="1000" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000078" Type="Action" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="100000168" Caption="防御" Reserved="1">
+      <Commands>
+        <Command ID="100000169" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="100" Type="Delay" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="100000173" Caption="前滚翻" Reserved="1">
+      <Commands>
+        <Command ID="100000078" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="100000174" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="288" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000175" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="100000176" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="100" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000177" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="1000" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000154" Type="Macro" Ratio="100" Loop="1" />
+        <Command ID="100" Type="Delay" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="100000190" Caption="右侧踢" Reserved="1">
+      <Commands>
+        <Command ID="100000078" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="100000192" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="360" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000191" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="160" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000193" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="300" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000195" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="100" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000197" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="100" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000196" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="200" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000078" Type="Action" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="1552885598" Caption="预前进" Reserved="1">
+      <Commands>
+        <Command ID="100000078" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="2041420785" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="935724685" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="100" Type="Delay" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="1289215612" Caption="后退" Reserved="1">
+      <Commands>
+        <Command ID="70837716" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="945403840" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="1547138886" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="895869551" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="542918673" Caption="前进右偏" Reserved="1">
+      <Commands>
+        <Command ID="1033102935" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="558399426" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="100" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="184179240" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="1071071745" Caption="前进左偏" Reserved="1">
+      <Commands>
+        <Command ID="1259648839" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="563963830" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="100" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="184179240" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="176497681" Caption="测试" Reserved="1">
+      <Commands>
+        <Command ID="100000136" Type="Macro" Ratio="100" Loop="5" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="542918673" Type="Macro" Ratio="100" Loop="5" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000136" Type="Macro" Ratio="100" Loop="5" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="1071071745" Type="Macro" Ratio="100" Loop="5" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="100000136" Type="Macro" Ratio="100" Loop="5" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="276200938" Caption="前进左偏01" Reserved="1">
+      <Commands>
+        <Command ID="351177636" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="923220323" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="1259648839" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="563963830" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="1343483605" Caption="前进右偏01" Reserved="1">
+      <Commands>
+        <Command ID="1033102935" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="558399426" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="81807975" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="1247198859" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="50" Type="Delay" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="935570809" Caption="站立1" Reserved="1">
+      <Commands>
+        <Command ID="184179240" Type="Action" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="1448208989" Caption="SUMMARY" Reserved="0">
+      <Commands>
+        <Command ID="100000130" Type="Macro" Ratio="100" Loop="1" />
+        <Command ID="935570809" Type="Macro" Ratio="100" Loop="1" />
+        <Command ID="100000136" Type="Macro" Ratio="100" Loop="1" />
+        <Command ID="1071071745" Type="Macro" Ratio="100" Loop="1" />
+        <Command ID="542918673" Type="Macro" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+  </Marcos>
+  <JoystickTables>
+    <JoystickTable Caption="摇杆" ID="100000025">
+      <Buttons>
+        <Button Caption="↑" ID="4096" ButtonPress="935570809" ButtonLongPress="100000136" ButtonUp="100000130" Uninterruptible="1" />
+        <Button Caption="←" ID="32768" ButtonPress="100000119" ButtonLongPress="100000119" ButtonUp="100000130" Uninterruptible="1" />
+        <Button Caption="→" ID="8192" ButtonPress="100000115" ButtonLongPress="100000115" ButtonUp="100000130" Uninterruptible="1" />
+        <Button Caption="↓" ID="16384" ButtonPress="1552885598" ButtonLongPress="1289215612" ButtonUp="100000130" Uninterruptible="1" />
+        <Button Caption="△" ID="1" ButtonPress="1552885598" ButtonLongPress="176497681" ButtonUp="100000130" Uninterruptible="1" />
+        <Button Caption="○" ID="2" ButtonPress="100000126" ButtonLongPress="100000126" ButtonUp="100000130" Uninterruptible="1" />
+        <Button Caption="☐" ID="8" ButtonPress="100000027" ButtonLongPress="100000027" ButtonUp="100000130" Uninterruptible="1" />
+        <Button Caption="✕" ID="4" ButtonPress="1552885598" ButtonLongPress="100000130" ButtonUp="100000130" Uninterruptible="1" />
+        <Button Caption="L1" ID="16" ButtonPress="935570809" ButtonLongPress="1071071745" ButtonUp="100000130" Uninterruptible="1" />
+        <Button Caption="L2" ID="64" ButtonPress="1552885598" ButtonLongPress="276200938" ButtonUp="100000130" Uninterruptible="1" />
+        <Button Caption="L3" ID="1024" ButtonPress="100000130" ButtonLongPress="0" ButtonUp="100000130" Uninterruptible="1" />
+        <Button Caption="R1" ID="32" ButtonPress="935570809" ButtonLongPress="542918673" ButtonUp="100000130" Uninterruptible="1" />
+        <Button Caption="R2" ID="128" ButtonPress="1552885598" ButtonLongPress="1343483605" ButtonUp="100000130" Uninterruptible="1" />
+        <Button Caption="R3" ID="2048" ButtonPress="100000130" ButtonLongPress="0" ButtonUp="100000130" Uninterruptible="1" />
+      </Buttons>
+    </JoystickTable>
+  </JoystickTables>
+</Project>
