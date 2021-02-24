@@ -3,7 +3,7 @@ IMU数据融合节点
 进行数据融合, 每隔100ms发布一下当前的姿态与位置
 ------------------------------------
 Author: 阿凯(Kyle)
-Email: xingshunkai@qq.com
+Email: kyle.xing@fashionstar.com.hk
 Update Time: 2020-08-03
 '''
 import time

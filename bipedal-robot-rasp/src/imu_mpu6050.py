@@ -2,7 +2,7 @@
 MPU6050 Python SDK (for Raspberry)
 ------------------------------------
 Author: 阿凯(Kyle)
-Email: xingshunkai@qq.com
+Email: kyle.xing@fashionstar.com.hk
 Update Time: 2020-08-03
 '''
 import smbus

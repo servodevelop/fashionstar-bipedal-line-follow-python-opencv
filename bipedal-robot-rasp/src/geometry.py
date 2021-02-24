@@ -2,7 +2,7 @@
 存放工具包,旋转的各种表示的相互转换
 ------------------------------------
 Author: 阿凯(Kyle)
-Email: xingshunkai@qq.com
+Email: kyle.xing@fashionstar.com.hk
 Update Time: 2020-08-03
 '''
 import math
